@@ -4,6 +4,9 @@
 - Programmeerimine 2 - https://web.htk.tlu.ee/digitaru/tarkvara2/chapter/pysimplegui-joonistamine/ - Eesti keeles dokumentatsioon
 - Python docs - https://www.python.org
 - Andmestruktuuride võrdlustabel - https://web.htk.tlu.ee/digitaru/tarkvara2/chapter/andmestruktuuride-vordlustabel/
+# Random
+- täisarvu jagades tuleb alati float!
+nt: 8/2 = 4.0
 # randint
 ```python
 from random import randint
