@@ -88,6 +88,15 @@ b = [5, 8]
 b += [7]
 print(b) # [5, 8, 7]
 ```
+## Iterating
+```python
+for key, value in my_dict.items(): # iterate through both keys and values
+	print(key, value)
+for key in my_dict.keys():  # For only keys (can also omit .keys())
+	print(key)
+for value in my_dict.values(): # For only values
+    print(value)
+```
 # For-tsükkel in range
 Viimane element pole kaasa arvatud!
 ```python
