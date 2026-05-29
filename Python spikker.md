@@ -10,13 +10,13 @@ from random import randint
 print(randint(3, 9)) # Returns a random number between 3 and 9 (both included)
 ```
 # Sõne
-Sõne elemente ei saa muuta ega sinna juurde lisada!
+Sõne elemente ei saa muuta ega sinna juurde lisada!  
 Teine variant on märkida sõne sisus olevad probleemsed ülakomad ja jutumärgid langkriipsuga. Sellisel juhul ei loe Python neid sõne piiritlejatena:
 ```python
 print("Jack vastas: \"Rock 'n' roll\".") # Jack vastas: "Rock 'n' roll".
 print('Jack vastas: "Rock \'n\' roll".') # Jack vastas: "Rock 'n' roll".
 ```
-Pane tähele, et langkriips \ ja kaldkriips / on erinevad märgid.
+Pane tähele, et langkriips \ ja kaldkriips / on erinevad märgid.  
 Langkriipsu saab kasutada ka teiste erisümbolite rakendamiseks. Näiteks saab reavahetuse lisada kombinatsiooniga \n.
 ```python
 print("Seda kuupaistet!\nOh muutuksin sündides\nmänniks mäetipul!\n-Ryota")
@@ -107,8 +107,9 @@ for i in range(1, 4):
 for i in range(0, 13, 2): # 2 on samm(võib olla ka negatiivne)
 	print(i) # 0,2,4,6,8,10,12
 ```
-# Failist lugemine
-txt - https://web.htk.tlu.ee/digitaru/programmeerimine/chapter/lugemine-failist/
+# Fail
+## Lugemine
+txt - https://web.htk.tlu.ee/digitaru/programmeerimine/chapter/lugemine-failist/  
 csv - https://web.htk.tlu.ee/digitaru/tarkvara2/chapter/csv/
 ```python
 fail = open("andmed.txt", encoding="UTF-8")
@@ -116,16 +117,23 @@ for rida in fail:
     print("Lugesin sellise rea: " + rida)
 fail.close() # oluline
 ```
-Instead of manually closing files, we can use the with statement. It ensures the file is automatically closed when the block ends.
+Instead of manually closing files, we can use the with statement. It ensures the file is automatically closed when the block ends.  
 This code opens the file, reads its contents and automatically closes it after use.
 ```python
 with open("tekst.txt", "r", encoding="UTF-8") as file: # r - read, w - write
     content = file.read()
     print(content)
 ```
-rida.strip() Removes any leading or trailing whitespace, including newline characters.
-rida.split() jaotada sõnad järjendisse
-rida.split(';') jaotada semikooloni kohalt
+rida.strip() Removes any leading or trailing whitespace, including newline characters.  
+rida.split() jaotada sõnad järjendisse  
+rida.split(';') jaotada semikooloni kohalt  
+## Kirjutamine
+```python
+fail = open("uus_fail.txt", "w") # Avad/lood faili, et sinna hakkata kirjutama
+fail.write("sisu") # Iga kord, kui seda kasutad, lisad tekstile JUURDE
+# Et rida vahetada pead lisama "\n"
+fail.close() # Ei tohi ära unustada faili kinni panna
+```
 # Rekursioon
 ```python
 def faktoriaal(n):
@@ -166,7 +174,7 @@ print(A[0][0])  # Väljastab 1
 print(A[1][1])  # Väljastab 5
 print(A[2][2])  # Väljastab 9
 ```
-Kõrvaldiagonaaliks nimetame analoogiliselt järjendit paremalt ülevalt vasakule alla jooksva diagonaali elementidega.
+Kõrvaldiagonaaliks nimetame analoogiliselt järjendit paremalt ülevalt vasakule alla jooksva diagonaali elementidega.  
 Peadiagonaaliks nimetame järjendit, mis sisaldab kõiki elemente maatriksi diagonaalilt, mis jookseb vasakust ülemisest nurgast paremasse alumisse nurka
 # Ennik
 https://web.htk.tlu.ee/digitaru/tarkvara2/chapter/lisalugemine-ennik/
