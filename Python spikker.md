@@ -1,9 +1,9 @@
 # Materjalid
-W3School - https://www.w3schools.com/python/default.asp - õppida ja infot otsida
-Programmeerimine 1 - https://web.htk.tlu.ee/digitaru/programmeerimine/part/sissejuhatus/ - Eesti keeles dokumentatsioon
-Programmeerimine 2 - https://web.htk.tlu.ee/digitaru/tarkvara2/chapter/pysimplegui-joonistamine/ - Eesti keeles dokumentatsioon
-Python docs - https://www.python.org
-Andmestruktuuride võrdlustabel - https://web.htk.tlu.ee/digitaru/tarkvara2/chapter/andmestruktuuride-vordlustabel/
+- W3School - https://www.w3schools.com/python/default.asp - õppida ja infot otsida
+- Programmeerimine 1 - https://web.htk.tlu.ee/digitaru/programmeerimine/part/sissejuhatus/ - Eesti keeles dokumentatsioon
+- Programmeerimine 2 - https://web.htk.tlu.ee/digitaru/tarkvara2/chapter/pysimplegui-joonistamine/ - Eesti keeles dokumentatsioon
+- Python docs - https://www.python.org
+- Andmestruktuuride võrdlustabel - https://web.htk.tlu.ee/digitaru/tarkvara2/chapter/andmestruktuuride-vordlustabel/
 # randint
 ```python
 from random import randint
@@ -179,12 +179,12 @@ h3 = set('Tere hommikust')
 ```
 Hulk ei ole järjestatud, hulgas ei ole korduvaid elemente, hulgad on muudetavad.
 # OOP paradigma
-Objektid ja klassid - https://web.htk.tlu.ee/digitaru/tarkvara2/chapter/objektid-ja-klassid/
-Slaidid - https://pydoc.pages.taltech.ee/slides/oop/#1
-W3School - https://www.w3schools.com/python/python_classes.asp
-GeeksforGeeks - https://www.geeksforgeeks.org/python/python-classes-and-objects/
+- Objektid ja klassid - https://web.htk.tlu.ee/digitaru/tarkvara2/chapter/objektid-ja-klassid/
+- Slaidid - https://pydoc.pages.taltech.ee/slides/oop/#1
+- W3School - https://www.w3schools.com/python/python_classes.asp
+- GeeksforGeeks - https://www.geeksforgeeks.org/python/python-classes-and-objects/
 
-• Kapseldamine (encapsulation) - funktsionaalsus peidetakse
-• Modulaarsus (modularity) - programm jagatakse iseseisvateks tükkideks
-• Polümorfism (polymorphism) - alamklass saab meetodeid üle kirjutada
-• Pärimine (inheritance) - alamklass pärib omadused ja meetodid
+- Kapseldamine (encapsulation) - funktsionaalsus peidetakse
+- Modulaarsus (modularity) - programm jagatakse iseseisvateks tükkideks
+- Polümorfism (polymorphism) - alamklass saab meetodeid üle kirjutada
+- Pärimine (inheritance) - alamklass pärib omadused ja meetodid
